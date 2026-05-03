@@ -7,32 +7,37 @@ class CommentsThreadScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const SketchScaffold(
+    return SketchScaffold(
       title: 'Comments',
       showBottomNav: true,
       children: [
-        SketchSectionTitle('Comments'),
-        SizedBox(height: 2),
-        SketchCard(
+        const SketchSectionTitle('Comments'),
+        const SizedBox(height: 2),
+        const SketchCard(
           child: Text('Ravi: Anyone attending the design meetup?  12 likes'),
         ),
-        SizedBox(height: 8),
-        Padding(
+        const SizedBox(height: 8),
+        const Padding(
           padding: EdgeInsets.only(left: 18),
           child: SketchCard(
             child: Text('Siya: Yup, 5pm at innovation lab!  5 likes'),
           ),
         ),
-        SizedBox(height: 8),
-        SketchCard(
+        const SizedBox(height: 8),
+        const SketchCard(
           child: Text('Neha: Can we create a notes swap thread?  9 likes'),
         ),
-        SizedBox(height: 10),
-        TextField(
+        const SizedBox(height: 10),
+        const TextField(
           decoration: InputDecoration(
             labelText: 'Comment',
             hintText: 'Type your comment...',
           ),
+        ),
+        const SizedBox(height: 10),
+        SketchButton(
+          label: 'Post Comment',
+          onTap: () => Navigator.pop(context),
         ),
       ],
     );

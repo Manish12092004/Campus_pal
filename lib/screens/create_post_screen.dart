@@ -1,3 +1,4 @@
+import 'package:campus_pal/screens/home_feed_screen.dart';
 import 'package:campus_pal/widgets/sketch_widgets.dart';
 import 'package:flutter/material.dart';
 
@@ -10,38 +11,41 @@ class CreatePostScreen extends StatelessWidget {
     return SketchScaffold(
       title: 'Create Post',
       showBottomNav: true,
-      children: const [
-        SketchSectionTitle('Create Post'),
-        SizedBox(height: 4),
-        TextField(
+      children: [
+        const SketchSectionTitle('Create Post'),
+        const SizedBox(height: 4),
+        const TextField(
           maxLines: 8,
           decoration: InputDecoration(hintText: 'What\'s happening on campus?'),
         ),
-        SizedBox(height: 10),
-        Row(
+        const SizedBox(height: 10),
+        const Row(
           children: [
             Icon(Icons.add_photo_alternate_outlined, size: 18),
             SizedBox(width: 6),
             Text('+ Add Image'),
           ],
         ),
-        SizedBox(height: 8),
-        Row(
+        const SizedBox(height: 8),
+        const Row(
           children: [
             Text('Category: Academics'),
             SizedBox(width: 6),
             Icon(Icons.keyboard_arrow_down_rounded, size: 18),
           ],
         ),
-        SizedBox(height: 8),
-        SwitchListTile(
+        const SizedBox(height: 8),
+        const SwitchListTile(
           value: true,
           onChanged: _noop,
           title: Text('Post anonymously'),
           contentPadding: EdgeInsets.zero,
         ),
-        SizedBox(height: 8),
-        SketchButton(label: 'Post'),
+        const SizedBox(height: 8),
+        SketchButton(
+          label: 'Post',
+          onTap: () => Navigator.pushReplacementNamed(context, HomeFeedScreen.route),
+        ),
       ],
     );
   }

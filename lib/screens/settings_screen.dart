@@ -7,17 +7,43 @@ class SettingsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const SketchScaffold(
+    return SketchScaffold(
       title: 'Settings',
       showBottomNav: true,
       children: [
-        ListTile(title: Text('Account')),
-        ListTile(title: Text('Privacy')),
-        ListTile(title: Text('Notifications')),
-        ListTile(title: Text('Help')),
-        Divider(),
-        ListTile(title: Text('Logout')),
-        ListTile(title: Text('Delete account')),
+        ListTile(
+          title: const Text('Account'),
+          onTap: () => ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Account settings')),
+          ),
+        ),
+        ListTile(
+          title: const Text('Privacy'),
+          onTap: () => ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Privacy settings')),
+          ),
+        ),
+        ListTile(
+          title: const Text('Notifications'),
+          onTap: () => ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Notification settings')),
+          ),
+        ),
+        ListTile(
+          title: const Text('Help'),
+          onTap: () => Navigator.pushNamed(context, '/help-report'),
+        ),
+        const Divider(),
+        ListTile(
+          title: const Text('Logout'),
+          onTap: () => Navigator.pushReplacementNamed(context, '/login-signup'),
+        ),
+        ListTile(
+          title: const Text('Delete account'),
+          onTap: () => ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Account deletion initiated')),
+          ),
+        ),
       ],
     );
   }

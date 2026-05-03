@@ -21,7 +21,8 @@ class SketchScaffold extends StatelessWidget {
       appBar: AppBar(title: Text(title)),
       floatingActionButton: showFab
           ? FloatingActionButton(
-              onPressed: () {},
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/create-post'),
               backgroundColor: AppTheme.paintGreen,
               child: const Icon(Icons.edit_rounded, color: AppTheme.ink),
             )
@@ -161,13 +162,56 @@ class SketchSectionTitle extends StatelessWidget {
 class _BottomNav extends StatelessWidget {
   const _BottomNav();
 
+  int _getCurrentIndex(String? currentRoute) {
+    switch (currentRoute) {
+      case '/home-feed':
+        return 0;
+      case '/community':
+        return 1;
+      case '/create-post':
+        return 2;
+      case '/notifications':
+        return 3;
+      case '/profile':
+        return 4;
+      default:
+        return 0;
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
+    final currentRoute = ModalRoute.of(context)?.settings.name;
+    final currentIndex = _getCurrentIndex(currentRoute);
+
     return BottomNavigationBar(
-      currentIndex: 0,
+      currentIndex: currentIndex,
       type: BottomNavigationBarType.fixed,
       selectedItemColor: AppTheme.ink,
       unselectedItemColor: AppTheme.mutedInk,
+      onTap: (index) {
+        String route;
+        switch (index) {
+          case 0:
+            route = '/home-feed';
+            break;
+          case 1:
+            route = '/community';
+            break;
+          case 2:
+            route = '/create-post';
+            break;
+          case 3:
+            route = '/notifications';
+            break;
+          case 4:
+            route = '/profile';
+            break;
+          default:
+            route = '/home-feed';
+        }
+        Navigator.pushReplacementNamed(context, route);
+      },
       items: const [
         BottomNavigationBarItem(icon: Icon(Icons.home_rounded), label: 'Home'),
         BottomNavigationBarItem(

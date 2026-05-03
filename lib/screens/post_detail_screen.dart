@@ -1,3 +1,4 @@
+import 'package:campus_pal/screens/comments_thread_screen.dart';
 import 'package:campus_pal/widgets/sketch_widgets.dart';
 import 'package:flutter/material.dart';
 
@@ -7,16 +8,16 @@ class PostDetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const SketchScaffold(
+    return SketchScaffold(
       title: 'Post',
       showBottomNav: true,
       children: [
-        SketchPostCard(
+        const SketchPostCard(
           author: 'Arjun | Mech | 3h',
           body: 'Lost my calculator near library. If found, please DM!',
         ),
-        SizedBox(height: 10),
-        SketchCard(
+        const SizedBox(height: 10),
+        const SketchCard(
           child: SizedBox(
             height: 160,
             child: Center(
@@ -31,18 +32,23 @@ class PostDetailScreen extends StatelessWidget {
             ),
           ),
         ),
-        SizedBox(height: 10),
-        Text('120 likes'),
-        SizedBox(height: 10),
-        SketchSectionTitle('Comments'),
-        SizedBox(height: 4),
-        Text('No comments yet'),
-        SizedBox(height: 8),
-        TextField(
+        const SizedBox(height: 10),
+        const Text('120 likes'),
+        const SizedBox(height: 10),
+        const SketchSectionTitle('Comments'),
+        const SizedBox(height: 4),
+        const Text('No comments yet'),
+        const SizedBox(height: 8),
+        const TextField(
           decoration: InputDecoration(
             labelText: 'Add comment',
             hintText: 'Write a reply...',
           ),
+        ),
+        const SizedBox(height: 10),
+        SketchButton(
+          label: 'View All Comments',
+          onTap: () => Navigator.pushNamed(context, CommentsThreadScreen.route),
         ),
       ],
     );
