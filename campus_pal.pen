@@ -1,0 +1,3216 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "GSG3a",
+      "x": 40,
+      "y": 40,
+      "name": "CampusPal UI System",
+      "width": 1700,
+      "height": 9000,
+      "fill": "#F7F4EC",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 24,
+      "children": [
+        {
+          "type": "frame",
+          "id": "o1PKH6",
+          "name": "Design System",
+          "width": "fill_container",
+          "fill": "$bg",
+          "cornerRadius": "$radiusLg",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "H1zTNb",
+              "name": "Colors",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Ow7Od",
+                  "name": "c1",
+                  "fill": "$surface",
+                  "cornerRadius": "$radiusMd",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 8,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 12,
+                      "id": "EPHTe",
+                      "fill": "$primaryPink",
+                      "width": 44,
+                      "height": 44
+                    },
+                    {
+                      "type": "text",
+                      "id": "ilEJB",
+                      "fill": "$textSecondary",
+                      "content": "Pink",
+                      "fontFamily": "$fontBase",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ykPwn",
+                  "name": "c2",
+                  "fill": "$surface",
+                  "cornerRadius": "$radiusMd",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 8,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 12,
+                      "id": "YhA41",
+                      "fill": "$primaryBlue",
+                      "width": 44,
+                      "height": 44
+                    },
+                    {
+                      "type": "text",
+                      "id": "iJj3f",
+                      "fill": "$textSecondary",
+                      "content": "Blue",
+                      "fontFamily": "$fontBase",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wxzMF",
+                  "name": "c3",
+                  "fill": "$surface",
+                  "cornerRadius": "$radiusMd",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 8,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 12,
+                      "id": "i77pYD",
+                      "fill": "$primaryGreen",
+                      "width": 44,
+                      "height": 44
+                    },
+                    {
+                      "type": "text",
+                      "id": "elifI",
+                      "fill": "$textSecondary",
+                      "content": "Green",
+                      "fontFamily": "$fontBase",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "z90qQ",
+              "name": "Core Components",
+              "width": "fill_container",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VizVe",
+                  "name": "Button/Primary",
+                  "reusable": true,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 125,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#B7D7FF",
+                        "position": 0
+                      },
+                      {
+                        "color": "#CDB9FF",
+                        "position": 0.5
+                      },
+                      {
+                        "color": "#B8F0D2",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": 14,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#3F3A33"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000001A",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "padding": [
+                    12,
+                    16
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "YSrsb",
+                      "fill": "#2F2A25",
+                      "content": "Continue",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RQtbg",
+                  "name": "Input/Field",
+                  "reusable": true,
+                  "width": 220,
+                  "fill": "#FBF8F0",
+                  "cornerRadius": 14,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "J2S56",
+                      "fill": "#5B544B",
+                      "content": "Label",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "u0UhQw",
+                      "fill": "#2F2A25",
+                      "content": "Placeholder",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jNDBn",
+                  "name": "Chip/Default",
+                  "reusable": true,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 110,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#F9E7B8",
+                        "position": 0
+                      },
+                      {
+                        "color": "#F5D0E6",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GlGB1",
+                      "fill": "#2F2A25",
+                      "content": "Coding",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "s0SFT",
+                  "name": "Card/Post",
+                  "reusable": true,
+                  "width": 280,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 160,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#FFFDF7",
+                        "position": 0
+                      },
+                      {
+                        "color": "#F4ECDA",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": 14,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000012",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "TD0qJ",
+                      "fill": "#6B6258",
+                      "content": "Anonymous • CSE • 2h",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tLwEH",
+                      "fill": "#2F2A25",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Anyone has notes for tomorrow's Data Structures quiz?",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gDaB7",
+          "name": "Mobile Screens",
+          "width": "fill_container",
+          "fill": "#F7F4EC",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "tf6k4",
+              "name": "Row 1 - Intro Flow",
+              "width": "fill_container",
+              "fill": "#F7F4EC",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "bcm4w",
+                  "name": "1 Splash",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "T6VlL",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "radial",
+                        "enabled": true,
+                        "rotation": 0,
+                        "size": {
+                          "width": 1,
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#9EC5FF",
+                            "position": 0
+                          },
+                          {
+                            "color": "#8FD7C2",
+                            "position": 0.6
+                          },
+                          {
+                            "color": "#C9B0FF",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "width": 86,
+                      "height": 86,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#2563EB33",
+                        "offset": {
+                          "x": 0,
+                          "y": 8
+                        },
+                        "blur": 20
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "h3eCr",
+                      "fill": "$textPrimary",
+                      "content": "CampusPal",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 34,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "X60Dr7",
+                      "fill": "$textSecondary",
+                      "content": "Connecting your campus",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 3,
+                      "id": "cC4Us",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 90,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#14B8A6",
+                            "position": 0
+                          },
+                          {
+                            "color": "#A78BFA",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "width": 120,
+                      "height": 6
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "i6C9u",
+                  "name": "2 Onboarding",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PUVEx",
+                      "fill": "$textSecondary",
+                      "content": "Skip",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ITHSr",
+                      "name": "hero2",
+                      "width": "fill_container",
+                      "height": 320,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 140,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#DDEBFF",
+                            "position": 0
+                          },
+                          {
+                            "color": "#F2D9FF",
+                            "position": 0.5
+                          },
+                          {
+                            "color": "#D8F5E8",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#6366F11F",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 16
+                      },
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "q3mEFi",
+                          "fill": "$textSecondary",
+                          "content": "Illustration",
+                          "fontFamily": "Patrick Hand",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "KJses",
+                      "fill": "$textPrimary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Your campus, in one place",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 26,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RBpOB",
+                      "fill": "$textSecondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Discover memes, events, and conversations from verified students.",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ijFA9",
+                      "fill": "$primaryBlue",
+                      "content": "● ○ ○",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "O1tmoJ",
+                  "name": "2B Onboarding",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "gGXbl",
+                      "width": "fill_container",
+                      "height": 320,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 140,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FFDCD4",
+                            "position": 0
+                          },
+                          {
+                            "color": "#E3D7FF",
+                            "position": 0.5
+                          },
+                          {
+                            "color": "#D3F2FF",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "OPInJ",
+                      "fill": "$textPrimary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Discuss anything with your college",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RScCg",
+                      "fill": "$textSecondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Ask questions, share wins, vent about deadlines.",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Jrq8y",
+                      "fill": "$accentPurple",
+                      "content": "○ ● ○",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Y1Lao",
+                  "name": "2C Onboarding",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "eb6fp",
+                      "width": "fill_container",
+                      "height": 320,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 140,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#D7F0DC",
+                            "position": 0
+                          },
+                          {
+                            "color": "#DDEBFF",
+                            "position": 0.5
+                          },
+                          {
+                            "color": "#F8E6C8",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "tPRSO",
+                      "fill": "$textPrimary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Verified students only",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uyxaN",
+                      "fill": "$textSecondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Safe conversations with real campus identities.",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "I3CP1",
+                      "fill": "$primaryGreen",
+                      "content": "○ ○ ●",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Uq23w",
+              "name": "Row 2 - Account Setup",
+              "width": "fill_container",
+              "fill": "#F7F4EC",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "U0OPxj",
+                  "name": "3 Login Signup",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "e4Fgl",
+                      "fill": "$textPrimary",
+                      "content": "Welcome back",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 26,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "id": "qT0LL",
+                      "type": "ref",
+                      "ref": "RQtbg",
+                      "width": "fill_container",
+                      "name": "em",
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0F172A12",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "blur": 8
+                      },
+                      "descendants": {
+                        "J2S56": {
+                          "fontFamily": "Patrick Hand"
+                        },
+                        "u0UhQw": {
+                          "content": "name@college.edu",
+                          "fontFamily": "Patrick Hand"
+                        }
+                      }
+                    },
+                    {
+                      "id": "M9R9jp",
+                      "type": "ref",
+                      "ref": "RQtbg",
+                      "width": "fill_container",
+                      "name": "pw",
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0F172A12",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "blur": 8
+                      },
+                      "descendants": {
+                        "J2S56": {
+                          "content": "Password",
+                          "fontFamily": "Patrick Hand"
+                        },
+                        "u0UhQw": {
+                          "content": "••••••••    Show",
+                          "fontFamily": "Patrick Hand"
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "biaqc",
+                      "fill": "$primaryBlue",
+                      "content": "Forgot password?",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cVt1X",
+                      "name": "btn3",
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 95,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#A9C8FF",
+                            "position": 0
+                          },
+                          {
+                            "color": "#D8B9FF",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 12,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#3B82F63D",
+                        "offset": {
+                          "x": 0,
+                          "y": 8
+                        },
+                        "blur": 18
+                      },
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "eWAY5",
+                          "fill": "#FFFFFF",
+                          "content": "Login",
+                          "fontFamily": "Patrick Hand",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "AMfhl",
+                      "fill": "$textSecondary",
+                      "content": "New here? Sign up",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UABxn",
+                  "name": "4 Email Verification",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pQhil",
+                      "fill": "$textPrimary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Verify your college email",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VrlwY",
+                      "fill": "$textSecondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "We sent a verification link. Please verify to unlock your campus feed.",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CoRjt",
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 145,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#DCFCE7",
+                            "position": 0
+                          },
+                          {
+                            "color": "#DBEAFE",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dkmMv",
+                      "name": "btn4",
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 95,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#AEE3C4",
+                            "position": 0
+                          },
+                          {
+                            "color": "#A8D4FF",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 12,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#22C55E33",
+                        "offset": {
+                          "x": 0,
+                          "y": 8
+                        },
+                        "blur": 18
+                      },
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SM1Ae",
+                          "fill": "#FFFFFF",
+                          "content": "I have verified",
+                          "fontFamily": "Patrick Hand",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "p50rsB",
+                      "fill": "$accentTeal",
+                      "content": "Resend email",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "U6Ygpb",
+                  "name": "5 College Join",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "X4kdfx",
+                      "fill": "$textSecondary",
+                      "content": "Detected College",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WuNKK",
+                      "fill": "$textPrimary",
+                      "content": "IIT Madras",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zvEFb",
+                      "fill": "$textSecondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Welcome to your campus community",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WjV46",
+                      "name": "b5",
+                      "width": "fill_container",
+                      "fill": "$primaryGreen",
+                      "cornerRadius": 12,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ksy4B",
+                          "fill": "#FFFFFF",
+                          "content": "Continue",
+                          "fontFamily": "Patrick Hand",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IxkJ9",
+                  "name": "6 Profile Setup",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Gl6GC",
+                      "fill": "$textPrimary",
+                      "content": "Set up your profile",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "Y5xg37",
+                      "fill": "#E0F2FE",
+                      "width": 88,
+                      "height": 88
+                    },
+                    {
+                      "id": "KEKUc",
+                      "type": "ref",
+                      "ref": "RQtbg",
+                      "width": "fill_container",
+                      "descendants": {
+                        "J2S56": {
+                          "content": "Name",
+                          "fontFamily": "Patrick Hand"
+                        },
+                        "u0UhQw": {
+                          "content": "Your full name",
+                          "fontFamily": "Patrick Hand"
+                        }
+                      }
+                    },
+                    {
+                      "id": "qwhUV",
+                      "type": "ref",
+                      "ref": "RQtbg",
+                      "width": "fill_container",
+                      "descendants": {
+                        "J2S56": {
+                          "content": "Department",
+                          "fontFamily": "Patrick Hand"
+                        },
+                        "u0UhQw": {
+                          "content": "Select department ▼",
+                          "fontFamily": "Patrick Hand"
+                        }
+                      }
+                    },
+                    {
+                      "id": "M5LZr",
+                      "type": "ref",
+                      "ref": "RQtbg",
+                      "width": "fill_container",
+                      "descendants": {
+                        "J2S56": {
+                          "content": "Year",
+                          "fontFamily": "Patrick Hand"
+                        },
+                        "u0UhQw": {
+                          "content": "Select year ▼",
+                          "fontFamily": "Patrick Hand"
+                        }
+                      }
+                    },
+                    {
+                      "id": "X9DF0",
+                      "type": "ref",
+                      "ref": "RQtbg",
+                      "width": "fill_container",
+                      "descendants": {
+                        "J2S56": {
+                          "content": "Bio",
+                          "fontFamily": "Patrick Hand"
+                        },
+                        "u0UhQw": {
+                          "content": "Tell your campus story",
+                          "fontFamily": "Patrick Hand"
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "S3bRPg",
+                      "name": "b6",
+                      "width": "fill_container",
+                      "fill": "$primaryBlue",
+                      "cornerRadius": 12,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RxQBT",
+                          "fill": "#FFFFFF",
+                          "content": "Continue",
+                          "fontFamily": "Patrick Hand",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "QnWjs",
+              "name": "Row 3 - Core Posting",
+              "width": "fill_container",
+              "fill": "#F7F4EC",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "KFXzs",
+                  "name": "7 Interests",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n1WaLx",
+                      "fill": "$textPrimary",
+                      "content": "Select your interests",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Hxoyu",
+                      "name": "chips7",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "id": "U74zA",
+                          "type": "ref",
+                          "ref": "jNDBn",
+                          "descendants": {
+                            "GlGB1": {
+                              "content": "Coding",
+                              "fontFamily": "Patrick Hand"
+                            }
+                          }
+                        },
+                        {
+                          "id": "GpKhb",
+                          "type": "ref",
+                          "ref": "jNDBn",
+                          "descendants": {
+                            "GlGB1": {
+                              "content": "Music",
+                              "fontFamily": "Patrick Hand"
+                            }
+                          }
+                        },
+                        {
+                          "id": "oVAst",
+                          "type": "ref",
+                          "ref": "jNDBn",
+                          "descendants": {
+                            "GlGB1": {
+                              "content": "Sports",
+                              "fontFamily": "Patrick Hand"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "C48DaH",
+                      "fill": "$textSecondary",
+                      "content": "Gaming  Movies  Design  Startups",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Z48N1",
+                      "name": "b7",
+                      "width": "fill_container",
+                      "fill": "$primaryBlue",
+                      "cornerRadius": 12,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gCMI4",
+                          "fill": "#FFFFFF",
+                          "content": "Continue",
+                          "fontFamily": "Patrick Hand",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RCouZ",
+                  "name": "8 Privacy Prefs",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "YlQFF",
+                      "fill": "$textPrimary",
+                      "content": "Privacy & Preferences",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VxtcC",
+                      "fill": "$textPrimary",
+                      "content": "Post anonymously by default   ON",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "e31aZx",
+                      "fill": "$textPrimary",
+                      "content": "Allow comments   ON",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OVdps",
+                      "fill": "$textPrimary",
+                      "content": "Profile visibility   College only",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "GCw1Q",
+                      "name": "b8",
+                      "width": "fill_container",
+                      "fill": "$primaryBlue",
+                      "cornerRadius": 12,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "O8fOv",
+                          "fill": "#FFFFFF",
+                          "content": "Continue",
+                          "fontFamily": "Patrick Hand",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nEJLv",
+                  "name": "9 Home Feed",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Hr9YO",
+                      "fill": "$textPrimary",
+                      "content": "IIT Madras    🔍",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "T0iEe8",
+                      "fill": "#4F46E5",
+                      "content": "All  Memes  Academics  Events  Help",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "cS3oO",
+                      "type": "ref",
+                      "ref": "s0SFT",
+                      "width": "fill_container",
+                      "name": "p1",
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0F172A12",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 14
+                      },
+                      "descendants": {
+                        "TD0qJ": {
+                          "content": "Anonymous • ECE • 1h",
+                          "fontFamily": "Patrick Hand"
+                        },
+                        "tLwEH": {
+                          "content": "Where is today's robotics club meeting?",
+                          "fontFamily": "Patrick Hand"
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "Y3AT7k",
+                      "fill": "$textSecondary",
+                      "content": "♡ 42    💬 18    ↗ Share    🔖",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "O5kLIX",
+                      "type": "ref",
+                      "ref": "s0SFT",
+                      "width": "fill_container",
+                      "name": "p2",
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0F172A12",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 14
+                      },
+                      "descendants": {
+                        "TD0qJ": {
+                          "content": "Riya • CSE • 4h",
+                          "fontFamily": "Patrick Hand"
+                        },
+                        "tLwEH": {
+                          "content": "Hostel hackathon this weekend. Team up?",
+                          "fontFamily": "Patrick Hand"
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "O1V5Q",
+                      "fill": "$textSecondary",
+                      "content": "♡ 88    💬 26    ↗ Share    🔖",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NuZf7",
+                      "fill": "$textSecondary",
+                      "content": "Bottom Nav: Home Community + Notifications Profile",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "g3DdF8",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "radial",
+                        "enabled": true,
+                        "rotation": 0,
+                        "size": {
+                          "width": 1,
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#AEEBD5",
+                            "position": 0
+                          },
+                          {
+                            "color": "#9FCEFF",
+                            "position": 0.6
+                          },
+                          {
+                            "color": "#DCC3FF",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "width": 52,
+                      "height": 52,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0EA5E955",
+                        "offset": {
+                          "x": 0,
+                          "y": 8
+                        },
+                        "blur": 20
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VOtYL",
+                  "name": "10 Create Post",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "r5Hwu",
+                      "fill": "$textPrimary",
+                      "content": "Create Post",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "maqak",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 160,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#F8FAFC",
+                            "position": 0
+                          },
+                          {
+                            "color": "#EEF2FF",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "padding": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "g1dKs",
+                      "fill": "$textSecondary",
+                      "content": "What's happening on campus?",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "C43v1",
+                      "fill": "$primaryBlue",
+                      "content": "+ Add Image",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IstIA",
+                      "fill": "$textPrimary",
+                      "content": "Category: Academics ▼",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bEmaW",
+                      "fill": "$textPrimary",
+                      "content": "Post anonymously   ON",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "h7Xzz",
+                      "name": "b10",
+                      "width": "fill_container",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 95,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#B8CEFF",
+                            "position": 0
+                          },
+                          {
+                            "color": "#E0B8FF",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 12,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#3B82F63D",
+                        "offset": {
+                          "x": 0,
+                          "y": 8
+                        },
+                        "blur": 18
+                      },
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JN6Oh",
+                          "fill": "#FFFFFF",
+                          "content": "Post",
+                          "fontFamily": "Patrick Hand",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Tu0nn",
+              "name": "Row 4 - Discovery & Profile",
+              "width": "fill_container",
+              "fill": "#F7F4EC",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "pOabz",
+                  "name": "11 Post Detail",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Sm4JF",
+                      "fill": "$textPrimary",
+                      "content": "Post",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "id": "LVoBX",
+                      "type": "ref",
+                      "ref": "s0SFT",
+                      "width": "fill_container",
+                      "descendants": {
+                        "TD0qJ": {
+                          "content": "Arjun • Mech • 3h",
+                          "fontFamily": "Patrick Hand"
+                        },
+                        "tLwEH": {
+                          "content": "Lost my calculator near library. If found, please DM!",
+                          "fontFamily": "Patrick Hand"
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Sts0E",
+                      "width": "fill_container",
+                      "height": 180,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#DFEAFF",
+                            "position": 0
+                          },
+                          {
+                            "color": "#F6E0FF",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "finHO",
+                      "fill": "$textSecondary",
+                      "content": "♡ 120 likes",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Z3i1Ot",
+                      "fill": "$textPrimary",
+                      "content": "Comments",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QfZOa",
+                      "fill": "$textSecondary",
+                      "content": "No comments yet",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "aSH0k",
+                      "type": "ref",
+                      "ref": "RQtbg",
+                      "width": "fill_container",
+                      "descendants": {
+                        "J2S56": {
+                          "content": "Add comment",
+                          "fontFamily": "Patrick Hand"
+                        },
+                        "u0UhQw": {
+                          "content": "Write a reply...",
+                          "fontFamily": "Patrick Hand"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hxLxZ",
+                  "name": "12 Comment Thread",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yvFhl",
+                      "fill": "$textPrimary",
+                      "content": "Comments",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ujnUU",
+                      "fill": "$textPrimary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Ravi: Anyone attending the design meetup?  ♡ 12",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gybAl",
+                      "fill": "$textSecondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "  ↳ Siya: Yup, 5pm at innovation lab!  ♡ 5",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pAink",
+                      "fill": "$textPrimary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Neha: Can we create a notes swap thread?  ♡ 9",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "UgeQN",
+                      "type": "ref",
+                      "ref": "RQtbg",
+                      "width": "fill_container",
+                      "descendants": {
+                        "J2S56": {
+                          "content": "Comment",
+                          "fontFamily": "Patrick Hand"
+                        },
+                        "u0UhQw": {
+                          "content": "Type your comment...",
+                          "fontFamily": "Patrick Hand"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nZZNr",
+                  "name": "13 Community",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "l3bLqM",
+                      "fill": "$textPrimary",
+                      "content": "IIT Madras Community",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "d8KX3",
+                      "fill": "$textSecondary",
+                      "content": "24.8k Members",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XVQS2",
+                      "fill": "$primaryBlue",
+                      "content": "Posts  Events  Topics",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "H8XG9I",
+                      "fill": "$textPrimary",
+                      "content": "Trending: #placements #fest #hostelfood",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YxfJF",
+                      "width": "fill_container",
+                      "height": 100,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 90,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#DCE8FF",
+                            "position": 0
+                          },
+                          {
+                            "color": "#E0F4FF",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "frame",
+                      "id": "l4JbPV",
+                      "width": "fill_container",
+                      "height": 100,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 90,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#D8F1E2",
+                            "position": 0
+                          },
+                          {
+                            "color": "#E4FBF2",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 12
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yytQn",
+                  "name": "14 Search",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "id": "DmhIY",
+                      "type": "ref",
+                      "ref": "RQtbg",
+                      "width": "fill_container",
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0F172A12",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "blur": 8
+                      },
+                      "descendants": {
+                        "J2S56": {
+                          "content": "Search",
+                          "fontFamily": "Patrick Hand"
+                        },
+                        "u0UhQw": {
+                          "content": "Search posts, users",
+                          "fontFamily": "Patrick Hand"
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "I6Jdc",
+                      "fill": "$textSecondary",
+                      "content": "Recent: hackathon, robotics, canteen",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NZ2kP",
+                      "fill": "$textPrimary",
+                      "content": "Results",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "id": "tYNEg",
+                      "type": "ref",
+                      "ref": "s0SFT",
+                      "width": "fill_container",
+                      "descendants": {
+                        "TD0qJ": {
+                          "content": "Priya • CSE",
+                          "fontFamily": "Patrick Hand"
+                        },
+                        "tLwEH": {
+                          "content": "Selling used engineering drawing kit",
+                          "fontFamily": "Patrick Hand"
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "kMCf2",
+                      "fill": "$textSecondary",
+                      "content": "Empty state: No search results",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "y06OMy",
+              "name": "Row 5 - Account & Support",
+              "width": "fill_container",
+              "fill": "#F7F4EC",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "K8luI6",
+                  "name": "15 Notifications",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "C6UiVf",
+                      "fill": "$textPrimary",
+                      "content": "Notifications",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xItqK",
+                      "fill": "$textPrimary",
+                      "content": "Aman liked your post • 2m",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TSUR6",
+                      "fill": "$textPrimary",
+                      "content": "Nisha commented on your post • 1h",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WXAjS",
+                      "fill": "$textPrimary",
+                      "content": "You were mentioned in #events • 4h",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kcQZQ",
+                      "fill": "$textSecondary",
+                      "content": "Empty state: No notifications",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gckca",
+                  "name": "16 Own Profile",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "A4uVQ",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "radial",
+                        "enabled": true,
+                        "rotation": 0,
+                        "size": {
+                          "width": 1,
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#C7D6FF",
+                            "position": 0
+                          },
+                          {
+                            "color": "#E0C8FF",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "width": 84,
+                      "height": 84
+                    },
+                    {
+                      "type": "text",
+                      "id": "S5gxyd",
+                      "fill": "$textPrimary",
+                      "content": "Aarav Menon",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TEHnY",
+                      "fill": "$textSecondary",
+                      "content": "CSE • 3rd Year",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yQNpC",
+                      "fill": "$textPrimary",
+                      "content": "Building cool campus projects.",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XCcuB",
+                      "fill": "$primaryBlue",
+                      "content": "Interests: Coding  Music  Gaming",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "JcWBr",
+                      "type": "ref",
+                      "ref": "s0SFT",
+                      "width": "fill_container",
+                      "descendants": {
+                        "TD0qJ": {
+                          "fontFamily": "Patrick Hand"
+                        },
+                        "tLwEH": {
+                          "fontFamily": "Patrick Hand"
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jwZ92",
+                      "name": "be",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 90,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#8B5CF6",
+                            "position": 0
+                          },
+                          {
+                            "color": "#A78BFA",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 12,
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "q3zEe9",
+                          "fill": "#FFFFFF",
+                          "content": "Edit Profile",
+                          "fontFamily": "Patrick Hand",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QY5vs",
+                  "name": "17 Other Profile",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "d2zsI",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "radial",
+                        "enabled": true,
+                        "rotation": 0,
+                        "size": {
+                          "width": 1,
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#CDEFD8",
+                            "position": 0
+                          },
+                          {
+                            "color": "#B8DFFF",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "width": 84,
+                      "height": 84
+                    },
+                    {
+                      "type": "text",
+                      "id": "NcJVS",
+                      "fill": "$textPrimary",
+                      "content": "Nidhi Rao",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VeEpV",
+                      "fill": "$textSecondary",
+                      "content": "ECE • 2nd Year",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "tS63Z",
+                      "type": "ref",
+                      "ref": "s0SFT",
+                      "width": "fill_container",
+                      "descendants": {
+                        "TD0qJ": {
+                          "fontFamily": "Patrick Hand"
+                        },
+                        "tLwEH": {
+                          "fontFamily": "Patrick Hand"
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "REagJ",
+                      "name": "rp",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 105,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FFD9D2",
+                            "position": 0
+                          },
+                          {
+                            "color": "#FFDCCB",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 12,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#EF444433",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 12
+                      },
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "QkMgx",
+                          "fill": "$danger",
+                          "content": "Report",
+                          "fontFamily": "Patrick Hand",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pFa5g",
+                      "name": "bk",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 105,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#E8EAF2",
+                            "position": 0
+                          },
+                          {
+                            "color": "#DDE4EE",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 12,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0F172A1A",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 12
+                      },
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Y8vqt",
+                          "fill": "$textPrimary",
+                          "content": "Block",
+                          "fontFamily": "Patrick Hand",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mxOhN",
+                  "name": "18 Saved Posts",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gurE5",
+                      "fill": "$textPrimary",
+                      "content": "Saved Posts",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "id": "x2UK82",
+                      "type": "ref",
+                      "ref": "s0SFT",
+                      "width": "fill_container",
+                      "descendants": {
+                        "TD0qJ": {
+                          "fontFamily": "Patrick Hand"
+                        },
+                        "tLwEH": {
+                          "fontFamily": "Patrick Hand"
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "MmKUx",
+                      "fill": "$textSecondary",
+                      "content": "Empty state: No saved posts",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HxdN2",
+              "name": "Row 6 - Empty & Error States",
+              "width": "fill_container",
+              "fill": "#F7F4EC",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "fbZMI",
+                  "name": "19 Settings",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "TP0wS",
+                      "fill": "$textPrimary",
+                      "content": "Settings",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nfSId",
+                      "fill": "$textPrimary",
+                      "content": "Account",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "SE6KS",
+                      "fill": "$textPrimary",
+                      "content": "Privacy",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "V37co",
+                      "fill": "$textPrimary",
+                      "content": "Notifications",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OT7sI",
+                      "fill": "$textPrimary",
+                      "content": "Help",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tnV6D",
+                      "fill": "$danger",
+                      "content": "Logout",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "L5ShB",
+                      "fill": "$danger",
+                      "content": "Delete account",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TZuia",
+                  "name": "20 Help Report",
+                  "width": 360,
+                  "height": 780,
+                  "fill": "#FFFDF7",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qHX0u",
+                      "fill": "$textPrimary",
+                      "content": "Help & Report",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "id": "I7cKl",
+                      "type": "ref",
+                      "ref": "RQtbg",
+                      "width": "fill_container",
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0F172A12",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "blur": 8
+                      },
+                      "descendants": {
+                        "J2S56": {
+                          "content": "Report issue",
+                          "fontFamily": "Patrick Hand"
+                        },
+                        "u0UhQw": {
+                          "content": "Describe the issue...",
+                          "fontFamily": "Patrick Hand"
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "z9ZzQ8",
+                      "fill": "$textPrimary",
+                      "content": "FAQ",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LIEJN",
+                      "fill": "$textSecondary",
+                      "content": "1. How to post anonymously?",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "K7u3X2",
+                      "fill": "$textSecondary",
+                      "content": "2. How to report abuse?",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YDQZ4",
+                      "fill": "$primaryBlue",
+                      "content": "Contact support: support@campuspal.app",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NWwME",
+                  "name": "States Board",
+                  "width": 360,
+                  "height": 780,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 180,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#FFFDF7",
+                        "position": 0
+                      },
+                      {
+                        "color": "#F8EFE0",
+                        "position": 0.55
+                      },
+                      {
+                        "color": "#F3E8D2",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#4B453E"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 1,
+                      "y": 2
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fbPaZ",
+                      "fill": "$textPrimary",
+                      "content": "Empty States",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Gim1B",
+                      "fill": "$textSecondary",
+                      "content": "No posts yet",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rFRgj",
+                      "fill": "$textSecondary",
+                      "content": "No comments yet",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "j24464",
+                      "fill": "$textSecondary",
+                      "content": "No notifications",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WyW3s",
+                      "fill": "$textSecondary",
+                      "content": "No search results",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "b6A8i6",
+                      "fill": "$textSecondary",
+                      "content": "No saved posts",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IEsf9",
+                      "fill": "#B91C1C",
+                      "content": "Error States",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "sHoxR",
+                      "fill": "$danger",
+                      "content": "No internet connection",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bAdH7",
+                      "fill": "$danger",
+                      "content": "Login failed",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ptLvT",
+                      "fill": "$danger",
+                      "content": "Verification failed",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "r4NY3",
+                      "fill": "$danger",
+                      "content": "Upload failed",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "j1f9YA",
+                      "fill": "$danger",
+                      "content": "Server error",
+                      "fontFamily": "Patrick Hand",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "accentPurple": {
+      "type": "color",
+      "value": "#A78BFA"
+    },
+    "accentTeal": {
+      "type": "color",
+      "value": "#14B8A6"
+    },
+    "bg": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "border": {
+      "type": "color",
+      "value": "#E2E8F0"
+    },
+    "danger": {
+      "type": "color",
+      "value": "#EF4444"
+    },
+    "fontBase": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "primaryBlue": {
+      "type": "color",
+      "value": "#3B82F6"
+    },
+    "primaryGreen": {
+      "type": "color",
+      "value": "#22C55E"
+    },
+    "primaryPink": {
+      "type": "color",
+      "value": "#F472B6"
+    },
+    "radiusLg": {
+      "type": "number",
+      "value": 16
+    },
+    "radiusMd": {
+      "type": "number",
+      "value": 12
+    },
+    "shadow": {
+      "type": "color",
+      "value": "#0F172A1A"
+    },
+    "spaceLg": {
+      "type": "number",
+      "value": 16
+    },
+    "spaceMd": {
+      "type": "number",
+      "value": 12
+    },
+    "spaceSm": {
+      "type": "number",
+      "value": 8
+    },
+    "spaceXl": {
+      "type": "number",
+      "value": 24
+    },
+    "surface": {
+      "type": "color",
+      "value": "#F8FAFC"
+    },
+    "textPrimary": {
+      "type": "color",
+      "value": "#0F172A"
+    },
+    "textSecondary": {
+      "type": "color",
+      "value": "#64748B"
+    }
+  }
+}
