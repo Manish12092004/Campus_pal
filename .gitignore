@@ -24,5 +24,12 @@ DerivedData/
 # VSCode
 .vscode/
 
+# Agent skills/config
+.agents/
+skills-lock.json
+
+# API testing artifacts
+postman/
+
 # Mac
 .DS_Store

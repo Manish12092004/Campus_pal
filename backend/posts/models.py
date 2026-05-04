@@ -1,3 +1,10 @@
 from django.db import models
+from common.models import BaseModel
+from users.models import User
+from colleges.models import College
 
-# Create your models here.
+class Post(BaseModel):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    college = models.ForeignKey(College, on_delete=models.CASCADE)
+    content = models.TextField()
+    is_anonymous = models.BooleanField(default=False)
