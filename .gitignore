@@ -6,6 +6,10 @@
 # Backend env
 /backend/.env
 
+# Python cache
+__pycache__/
+**/__pycache__/
+
 # Flutter / Dart build outputs
 build/
 .dart_tool/
